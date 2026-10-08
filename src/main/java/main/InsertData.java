@@ -20,6 +20,7 @@ public class InsertData {
 		Session ss = sf.openSession();
 		Transaction tr = ss.beginTransaction();
 
+		// inserting data
 		String hqlQuery = "insert into Student(id,age,city,name)values(:id,:age,:city,:name)";
 		MutationQuery mq = ss.createMutationQuery(hqlQuery);
 		mq.setParameter("id", 1020);
