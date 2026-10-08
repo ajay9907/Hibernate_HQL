@@ -23,12 +23,12 @@ public class MainClass {
 		// inserting
 
 		Laptop l = new Laptop();
-		l.setId(1001);
-		l.setLname("Asus");
+		l.setId(1002);
+		l.setLname("Dell");
 
 		Person p = new Person();
-		p.setName("Ajay");
-		p.setCity("PCMC");
+		p.setName("Jay");
+		p.setCity("Pune");
 
 		ss.persist(l);
 		ss.persist(p);
