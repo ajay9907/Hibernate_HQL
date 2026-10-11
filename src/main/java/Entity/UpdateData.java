@@ -22,7 +22,7 @@ public class UpdateData {
 
 		MutationQuery m = s.createMutationQuery(hql);
 		m.setParameter("city", "Hydrabad");
-		m.setParameter("id", 1010);
+		m.setParameter("id", 1050);
 
 		m.executeUpdate();
 
